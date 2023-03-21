@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap website 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Shantell+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="intro">
+            <img src="./Images/header.jpg" class="img-fluid" alt="">
+            <div class="head text-center">
+                <h1 style=" font-family: 'Shantell Sans', cursive;">Hella</h1>
+                <h6 style="letter-spacing: 5px;">LIFESTYLER</h6>
+                <p style="font-family: 'Poppins', sans-serif;">This blog for people who care about healthy food</p>
+                <hr class="container w-25" style="color: #1abc9c; height:0; border-bottom: 3px solid #1abc9c;">
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary container">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feature">Feature</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Breakfast</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fruit</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- header end------>
+    <section class="feature container mt-5 pt-3" id="feature">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 one">
+                <img src="./Images/Post 1.jpg" class="img-fluid rounded-1" alt="">
+                <div class="text p-3 w-75 h-50">
+                    <h6 class="text-light">BREAKFAST</h6>
+                    <h4 class="text-light">This could be a title for this blog</h4>
+                    <a href="">Read more</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 one">
+                <img src="./Images/Post 2.jpg" class="img-fluid rounded-1" alt="">
+                <div class="text p-3 w-75 h-50">
+                    <h6 class="text-light">BREAKFAST</h6>
+                    <h4 class="text-light">This could be a title for this blog</h4>
+                    <a href="">Read more</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 one">
+                <img src="./Images/Post 3.jpg" class="img-fluid rounded-1" alt="">
+                <div class="text p-3 w-75 h-50">
+                    <h6 class="text-light">BREAKFAST</h6>
+                    <h4 class="text-light">This could be a title for this blog</h4>
+                    <a href="">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- feature end----->
+    <section class="subscription container mt-0 mb-5" id="contact">
+        <div class="row align-items-center justify-content-center">
+            <div class="content col-lg-5 col-md-5 col-12 text-center">
+                <h3>Want to get weekly tips 7 tricks</h3>
+                <p>Sign up and recieve your first email immediately</p>
+            </div>
+            <div class="sub col-lg-5 col-md-5 col-12 text-center">
+                <input type="email" placeholder="Your Email" class="m-lg-2">
+                <button type="button" class="btn btn-outline" id="subs-btn">SUBSCRIBE</button>
+
+            </div>
+        </div>
+    </section>
+    <!-- subscription end--->
+    <section class="blog container my-5">
+        <div class="row">
+            <div class="post col-md-8 col-12 col-lg-8">
+                <div class="row">
+                    <div class="post1 col-md-6 col-12 col-lg-6 py-4">
+                        <img src="./Images/Post 2.jpg" class="img-fluid rounded-1 mb-3" alt="">
+                        <h3>Make a healthy for you</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit vero doloremque porro eveniet molestias aspernatur, nobis sit facere optio!</p>
+                        <a href="#">Read more</a>
+                    </div>
+                    <div class="post1 col-md-6 col-12 col-lg-6 py-4">
+                        <img src="./Images/Post 3.jpg" class="img-fluid rounded-1 mb-3" alt="">
+                        <h3>Make a healthy for you</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit vero doloremque porro eveniet molestias aspernatur, nobis sit facere optio!</p>
+                        <a href="#">Read more</a>
+                    </div>
+                    <div class="post1 col-md-6 col-12 col-lg-6 py-4">
+                        <img src="./Images/Post 4.jpg" class="img-fluid rounded-1 mb-3" alt="">
+                        <h3>Make a healthy for you</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit vero doloremque porro eveniet molestias aspernatur, nobis sit facere optio!</p>
+                        <a href="#">Read more</a>
+                    </div>
+                    <div class="post1 col-md-6 col-12 col-lg-6 py-4">
+                        <img src="./Images/Post 5.jpg" class="img-fluid rounded-1 mb-3" alt="">
+                        <h3>Make a healthy for you</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit vero doloremque porro eveniet molestias aspernatur, nobis sit facere optio!</p>
+                        <a href="#">Read more</a>
+                    </div>
+                    <div class="post1 col-md-6 col-12 col-lg-6 py-4">
+                        <img src="./Images/Post 6.jpg" class="img-fluid rounded-1 mb-3" alt="">
+                        <h3>Make a healthy for you</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit vero doloremque porro eveniet molestias aspernatur, nobis sit facere optio!</p>
+                        <a href="#">Read more</a>
+                    </div>
+                    <div class="post1 col-md-6 col-12 col-lg-6 py-4">
+                        <img src="./Images/Post 7.jpg" class="img-fluid rounded-1 mb-3" alt="">
+                        <h3>Make a healthy for you</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit vero doloremque porro eveniet molestias aspernatur, nobis sit facere optio!</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar col-lg-4 col-md-4 col-12 mt-4">
+                <img src="./Images/Profile picture.jpg" class="img-fluid rounded-1" alt="">
+               <div class="text-center mt-3">
+                <h3>Sofia vogue</h3>
+                <h6 style="color:#1abc9c;">FULL TIME HEALTH BLOGGER</h6>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, aspernatur?</P>
+               </div>
+               <div class="side2 mt-5">
+                <h4>My personal favourities</h4>
+                <hr>
+                <div class="row align-items-center">
+                    <div class="img col-lg-5 py-3">
+                        <img src="./Images/Post 4.jpg" class="img-fluid rounded-1" alt="">
+                    </div>
+                    <div class="text col-lg-6">
+                        <p style="font-size: 15px;">Lorem ipsum, dolor sit amet.</p>
+                        <a href="#" class="text-decoration-none" style="color:#1abc9c">Read more</a>
+                    </div>
+                    <div class="img col-lg-5 py-3">
+                        <img src="./Images/Post 7.jpg" class="img-fluid rounded-1" alt="">
+                    </div>
+                    <div class="text col-lg-6">
+                        <p style="font-size: 15px;">Lorem ipsum, dolor sit amet.</p>
+                        <a href="#" class="text-decoration-none" style="color:#1abc9c">Read more</a>
+                    </div>
+                    <div class="img col-lg-5 py-3">
+                        <img src="./Images/Post 6.jpg" class="img-fluid rounded-1" alt="">
+                    </div>
+                    <div class="text col-lg-6">
+                        <p style="font-size: 15px;">Lorem ipsum, dolor sit amet.</p>
+                        <a href="#" class="text-decoration-none" style="color:#1abc9c">Read more</a>
+                    </div>
+                </div>
+               </div>
+               <div class="side-3 mt-5">
+                <h4>Interesting</h4>
+                <hr >
+                <div>
+                    <div class="one text-center w-100 h-100">
+                        <img src="./Images/Post 1.jpg" class="img-fluid rounded-1" alt="">
+                        <div class="text">
+                        <h4 class="text-white">Vitamin c, now also available in a simple packages.</h4>
+                        <button type="button" class="btn btn-outline-light">Primary</button>
+
+                    </div>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+       
+    </section>
+ <!-- blog end---------->
+  <!-- FOOTER -->
+<hr class="container">
+  <footer class="w-100 py-4 flex-shrink-0">
+    <div class="container py-4">
+        <div class="row gy-4 gx-5">
+            <div class="col-lg-4 col-md-6">
+                <h5 class="h1 text-dark">FB.</h5>
+                <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                <p class="small text-dark mb-0">&copy; Copyrights. All rights reserved. <br> <a class="text-primary text-decoration-none" href="#">Created by Mr_deepanshu</a></p>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <h5 class="text-dark mb-3">Quick links</h5>
+                <ul class="list-unstyled text-muted">
+                    <li><a href="#" class="text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-decoration-none">About</a></li>
+                    <li><a href="#" class="text-decoration-none">Get started</a></li>
+                    <li><a href="#" class="text-decoration-none">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <h5 class="text-dark mb-3">Quick links</h5>
+                <ul class="list-unstyled text-muted ">
+                    <li><a href="#" class="text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-decoration-none">About</a></li>
+                    <li><a href="#" class="text-decoration-none">Get started</a></li>
+                    <li><a href="#" class="text-decoration-none">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h5 class="text-dark mb-3">Newsletter</h5>
+                <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                <form action="#">
+                    <div class="input-group mb-3">
+                        <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+ <!-- footer ends-------->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

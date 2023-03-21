@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+    scroll-padding-top: 2vw;
+}
+/* global */
+h1 {
+  font-size: 6.5vw;
+}
+h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+h6 {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+p {
+  font-size: 1rem;
+}
+/* head--- */
+.head {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.intro {
+  position: relative;
+}
+/* features */
+.feature .row .one .text {
+  position: relative;
+  bottom: 50%;
+  background: rgba(0, 0, 0, 0.3);
+}
+.feature .row .one .text a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  border-bottom: 2px solid #1abc9c;
+}
+
+/* .subscription */
+.subscription {
+  background: #acfcd4;
+  padding: 40px 0px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.subscription .row .sub input {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+.subscription .row .sub .btn {
+  background-color: #1abc9c !important;
+  border-radius: 3px;
+  color: #fff;
+}
+.subscription .row .sub .btn:hover {
+  color: black;
+  background-color: #fff !important;
+}
+/* blog--- */
+.blog .row .post .post1 a {
+  text-decoration: none;
+  color: #1abc9c;
+  font-weight: 500;
+}
+.blog .side-3 .one {
+  position: relative;
+  height: 300px;
+}
+.blog .side-3 .one img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+.blog .side-3 .one .text {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20%;
+}
+.blog .side-3 .one .shop-btn {
+  background: transparent;
+  outline: none;
+  border: none;
+  outline: 1px solid #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+/* hover effect navbar */
+ .navbar-nav .nav-link::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background-color: #1abc9c;
+    transition: all .5s;
+}
+ .navbar-nav .nav-link:hover::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background-color: #1abc9c;
+}
+/* .fa-brands, .fab:hover{
+    color: #1abc9c;
+} */
